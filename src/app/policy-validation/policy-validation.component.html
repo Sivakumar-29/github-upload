@@ -1,0 +1,11 @@
+<div class="policyValidation" *ngIf="!isValidPolicy; else codeValidation">
+  <input type="text" [(ngModel)]="policyNumber"/>
+  <button (click)="validatePolicyNumber()">Continue</button>
+</div>
+
+<ng-template #codeValidation>
+  <div class="policyValidation">
+    <a href="#" (click)="changePolicyNumber()">Change policy number</a>
+    <input type="text" [(ngModel)]="emailAddress"/>
+  </div>
+</ng-template>

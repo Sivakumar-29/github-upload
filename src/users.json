@@ -1,0 +1,14 @@
+[
+  {
+    "userId": 1,
+    "username": "krishnas",
+    "password": "password",
+    "policyNumber": "DE00001234"
+  },
+  {
+    "userId": 2,
+    "username": "skrish",
+    "password": "password",
+    "policyNumber": "DE00003423"
+  }
+]
